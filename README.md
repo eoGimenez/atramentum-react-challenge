@@ -58,5 +58,7 @@ Los medios que utilices para realizar esta prueba son indiferentes: puedes bucar
 
 Envíanos tu CV, enlace a tu perfil de GitHub y enlace al repositorio de la prueba técnica a [vacantes@akralogic.es](mailto:vacantes@akralogic.es) o contáctanos a través de nuestra página en [Linkedin](https://www.linkedin.com/company/atramentum-sl/).
 
+No es necesario que la web esté disponible online, pero de no ser así, deberás incluir las instrucciones para levantarla en local. 🚀
+
 ¡Estamos ansiosos por conocer tu talento y tenerlo en nuestro equipo!
 
