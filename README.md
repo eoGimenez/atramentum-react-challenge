@@ -4,6 +4,8 @@
 
 Atramentum es una empresa en crecimiento que busca incorporar nuevos talentos en su departamento de TI. Actualmente, estamos en busca de un **Desarrollador de Software Frontend** con experiencia en React. :rocket:
 
+Actualmente ya hemos iniciado el desarrollo de [varios frontales](https://spa-erp-dev.azurewebsites.net/) utilizando las tecnologías que en este challengue introducimos.
+
 ## Posición: Desarrollador de Software Frontend :man_technologist:
 
 ### Responsabilidades principales: :clipboard:
@@ -32,15 +34,11 @@ Para evaluar tus habilidades, te pedimos que realices la siguiente tarea en un r
 
 #### Autenticación: :closed_lock_with_key:
 
-Utiliza las credenciales que te proporcionaremos para autenticarte en el siguiente endpoint:
-
-`https://erp-cloud-dev.azurewebsites.net/akralogic/erp/api/authenticate`
+Utiliza las credenciales que te proporcionaremos para autenticarte en el siguiente [endpoint](https://erp-cloud-dev.azurewebsites.net/akralogic/erp/api/authenticate).
 
 Esto te permitirá obtener un token  JWT para interactuar con los demás endpoints de la API.
 
-La documentación de la API se encuentra en:
-
-`https://erp-cloud-dev.azurewebsites.net/akralogic/erp/swagger-ui/index.html`
+La documentación de la API se encuentra en la siguiente [URL que dirige al swagger](https://erp-cloud-dev.azurewebsites.net/akralogic/erp/swagger-ui/index.html).
 
 #### Tarea: :hammer_and_wrench:
 
@@ -54,4 +52,11 @@ Una vez que hayas completado la prueba técnica, incluye el enlace al repositori
 
 ## ¿Cómo aplicar? :mailbox_with_mail:
 
-Envíanos tu CV, enlace a tu perfil de GitHub y enlace
+Nuestra intención no es hacerte perder el tiempo, sino comprobar tu encaje en las tecnologías de la empresa, lo que beneficiará a las dos partes.
+
+Los medios que utilices para realizar esta prueba son indiferentes: puedes bucar casos similares en la red, ayudarte de algún copiloto de IA, etc. Lo que queremos es que entiendas lo que haces y por qué lo haces. Y en la entrevista que concertemos tras la entrega de la prueba técnica, será sobre lo que hablaremos: tranquilo, no se trata de un examen y pasaremos un buen rato hablando de tecnología.
+
+Envíanos tu CV, enlace a tu perfil de GitHub y enlace al repositorio de la prueba técnica a [vacantes@akralogic.es](mailto:vacantes@akralogic.es) o contáctanos a través de nuestra página en [Linkedin](https://www.linkedin.com/company/atramentum-sl/).
+
+¡Estamos ansiosos por conocer tu talento y tenerlo en nuestro equipo!
+
