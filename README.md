@@ -8,23 +8,23 @@ Atramentum es una empresa en crecimiento que busca incorporar nuevos talentos en
 
 ### Responsabilidades principales: :clipboard:
 
-- Desarrollar y mantener aplicaciones frontend utilizando React. :wrench:
-- Conectar las aplicaciones frontend con nuestra API desplegada en la nube. :cloud:
-- Presentar propuestas de valor e iniciativas que ayuden al crecimiento de la empresa. :bulb:
+- Desarrollar y mantener aplicaciones frontend utilizando React.
+- Conectar las aplicaciones frontend con nuestra API desplegada en la nube.
+- Presentar propuestas de valor e iniciativas que ayuden al crecimiento de la empresa.
 
 ### Requisitos: :white_check_mark:
 
-- Experiencia comprobable con React. Valorable con Playwright y TailwindCSS. :star:
-- Conocimientos en consumo de APIs y gestión de sesiones. :gear:
-- Habilidad para trabajar en equipo y comunicarse eficazmente. :people_holding_hands:
-- Creatividad e iniciativa para aportar nuevas ideas y soluciones. :sparkles:
+- Experiencia comprobable con React. Valorable con Playwright y TailwindCSS.
+- Conocimientos en consumo de APIs y gestión de sesiones.
+- Habilidad para trabajar en equipo y comunicarse eficazmente.
+- Creatividad e iniciativa para aportar nuevas ideas y soluciones.
 
 ### Conocimientos deseables: :dart:
 
-- Experiencia en el desarrollo de aplicaciones con rendimiento y escalabilidad en mente. :chart_with_upwards_trend:
-- Conocimientos en herramientas de control de versiones como Git. :octocat:
-- Experiencia en la implementación de pruebas unitarias y de integración. :test_tube:
-- Conocimiento en accesibilidad web y mejores prácticas de UX/UI. :wheelchair:
+- Experiencia en el desarrollo de aplicaciones con rendimiento y escalabilidad en mente.
+- Conocimientos en herramientas de control de versiones como Git.
+- Experiencia en la implementación de pruebas unitarias y de integración.
+- Conocimiento en accesibilidad web y mejores prácticas de UX/UI.
 
 ### Prueba técnica: :memo:
 
@@ -46,11 +46,11 @@ La documentación de la API se encuentra en:
 
 Crear una aplicación básica en React que muestre, como mínimo, dos pantallas:
 
-1. **Listado de clientes:** Muestra el listado de clientes de la forma que consideres más conveniente, teniendo en cuenta que no conoces la lógica de negocio y lo que podría ser más importante para cada uno de los ámbitos de la empresa. :busts_in_silhouette:
+1. **Listado de clientes:** Muestra el listado de clientes de la forma que consideres más conveniente, teniendo en cuenta que no conoces la lógica de negocio y lo que podría ser más importante para cada uno de los ámbitos de la empresa.
 
-2. **Edición de cliente:** Al hacer clic en un cliente del listado, accede a una página de edición del cliente. Un cliente tiene muchas relaciones (direcciones de facturación, de envío, cuentas bancarias, etc.) y aunque **no** es necesario cubrirlas todas, sí será necesario mínimo mostrar dos o tres para mostrar cómo gestionar diversas llamada (diversas pestañas, vía scroll o de la forma que te sientas más cómodo). :pencil2:
+2. **Edición de cliente:** Al hacer clic en un cliente del listado, accede a una página de edición del cliente. Un cliente tiene muchas relaciones (direcciones de facturación, de envío, cuentas bancarias, etc.) y aunque **no** es necesario cubrirlas todas, sí será necesario mínimo mostrar dos o tres para mostrar cómo gestionar diversas llamada (diversas pestañas, vía scroll con carga progresiva o de la forma que te sientas más cómodo). Recuerda que estos cambios deberán poder guardarse con la respectiva llamada a la API.
 
-Una vez que hayas completado la prueba técnica, incluye el enlace al repositorio Git en tu aplicación. :link:
+Una vez que hayas completado la prueba técnica, incluye el enlace al repositorio Git en tu aplicación.
 
 ## ¿Cómo aplicar? :mailbox_with_mail:
 
