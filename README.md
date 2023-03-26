@@ -34,11 +34,11 @@ Para evaluar tus habilidades, te pedimos que realices la siguiente tarea en un r
 
 #### Autenticación: :closed_lock_with_key:
 
-Utiliza las credenciales que te proporcionaremos para autenticarte en el siguiente [endpoint](https://erp-cloud-dev.azurewebsites.net/akralogic/erp/api/authenticate).
+Utiliza las credenciales que te proporcionaremos para autenticarte en el siguiente [endpoint](https://erp-api-dev-app.azurewebsites.net/akralogic/erp/swagger-ui/index.html#/Authentication/authenticate).
 
 Esto te permitirá obtener un token  JWT para interactuar con los demás endpoints de la API.
 
-La documentación de la API se encuentra en la siguiente [URL que dirige al swagger](https://erp-cloud-dev.azurewebsites.net/akralogic/erp/swagger-ui/index.html).
+La documentación de la API se encuentra en la siguiente [URL que dirige al swagger](https://erp-api-dev-app.azurewebsites.net/akralogic/erp/swagger-ui/index.html).
 
 #### Tarea: :hammer_and_wrench:
 
