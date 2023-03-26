@@ -1,12 +1,12 @@
 # Oportunidad de empleo: Desarrollador de Software Frontend
 
-## Empresa: Atramentum :office:
+## Empresa: Atramentum
 
-Atramentum es una empresa en crecimiento que busca incorporar nuevos talentos en su departamento de TI. Actualmente, estamos en busca de un **Desarrollador de Software Frontend** con experiencia en React. :rocket:
+Atramentum es una empresa en crecimiento que busca incorporar nuevos talentos en su departamento de TI. Actualmente, estamos en busca de un **Desarrollador de Software Frontend** con experiencia en React.
 
 Actualmente ya hemos iniciado el desarrollo de [varios frontales](https://spa-erp-dev.azurewebsites.net/) utilizando las tecnologías que en este challengue introducimos.
 
-## Posición: Desarrollador de Software Frontend :man_technologist:
+## Posición: Desarrollador de Software Frontend
 
 ### Responsabilidades principales: :clipboard:
 
@@ -43,6 +43,9 @@ La documentación de la API se encuentra en la siguiente [URL que dirige al swag
 #### Tarea: :hammer_and_wrench:
 
 Crear una aplicación básica en React que muestre, como mínimo, dos pantallas:
+
+> **Note**
+> La entidad a completar se le dirá al candidato con anterioridad al desarrollo del challenge. Podrá ser referente a cliente, a productos o a cualquier otra entidad.
 
 1. **Listado de clientes:** Muestra el listado de clientes de la forma que consideres más conveniente, teniendo en cuenta que no conoces la lógica de negocio y lo que podría ser más importante para cada uno de los ámbitos de la empresa.
 
