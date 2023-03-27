@@ -10,23 +10,34 @@ Actualmente ya hemos iniciado el desarrollo de [varios frontales](https://spa-er
 
 ### Responsabilidades principales: :clipboard:
 
-- Desarrollar y mantener aplicaciones frontend utilizando React.
-- Conectar las aplicaciones frontend con nuestra API desplegada en la nube.
-- Presentar propuestas de valor e iniciativas que ayuden al crecimiento de la empresa.
+1.  Colaborar con el equipo de diseño y desarrollo para implementar interfaces de usuario atractivas y eficientes.
+2.  Desarrollar y mantener aplicaciones web utilizando React y otras tecnologías frontend modernas.
+3.  Optimizar aplicaciones para un rendimiento y una escalabilidad adecuados.
+4.  Garantizar la compatibilidad entre navegadores y dispositivos.
+5.  Participar en la revisión de código y mantener la calidad del código siguiendo las mejores prácticas de la industria.
+6.  Colaborar en un entorno de equipo ágil y participar activamente en las reuniones de planificación y revisión.
+7.  Crear prototipos y maquetas funcionales utilizando herramientas de diseño y prototipado, como Figma.
 
 ### Requisitos: :white_check_mark:
 
-- Experiencia comprobable con React. Valorable con Playwright y TailwindCSS.
-- Conocimientos en consumo de APIs y gestión de sesiones.
-- Habilidad para trabajar en equipo y comunicarse eficazmente.
-- Creatividad e iniciativa para aportar nuevas ideas y soluciones.
+1.  Título en informática o campo relacionado, o experiencia laboral equivalente.
+2.  Experiencia mínima de 2 años en desarrollo frontend con React. Se valorará menos experiencia si puede aportar un portfolio de trabajos implementados suficiente.Muy valorable Valorable con Playwright y TailwindCSS.
+3.  Profundo conocimiento de JavaScript, HTML5 y CSS3.
+4.  Experiencia con frameworks y bibliotecas adicionales, como Redux, Context API, Next.js y Webpack.
+5.  Conocimiento de API RESTful para la integración con servicios backend.
+6.  Experiencia en la implementación de diseño responsive y adaptative.
+7.  Conocimientos en pruebas unitarias y de integración con Jest, Enzyme o herramientas similares.
+8.  Familiaridad con el control de versiones, como Git.
+9.  Habilidad para resolver problemas y pensar de manera crítica.
+10. Excelentes habilidades de comunicación escrita y verbal en español.
+11. Experiencia en el uso de herramientas de diseño y prototipado, como Figma.
+12. Creatividad e iniciativa para aportar nuevas ideas y soluciones.
 
 ### Conocimientos deseables: :dart:
 
-- Experiencia en el desarrollo de aplicaciones con rendimiento y escalabilidad en mente.
-- Conocimientos en herramientas de control de versiones como Git.
-- Experiencia en la implementación de pruebas unitarias y de integración.
-- Conocimiento en accesibilidad web y mejores prácticas de UX/UI.
+1.  Experiencia en otros frameworks o bibliotecas frontend, Playwright y TailwindCSS.
+2.  Conocimientos en accesibilidad web, mejores prácticas de UX/UI y prácticas de SEO.
+3.  Familiaridad con metodologías de diseño, como Diseño Centrado en el Usuario o Design Thinking.
 
 ### Prueba técnica: :memo:
 
