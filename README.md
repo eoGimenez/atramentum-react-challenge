@@ -4,7 +4,7 @@
 
 Atramentum es una empresa en crecimiento que busca incorporar nuevos talentos en su departamento de TI. Actualmente, estamos en busca de un **Desarrollador de Software Frontend** con experiencia en React.
 
-Actualmente ya hemos iniciado el desarrollo de [varios frontales](https://erp-spa-dev-app.azurewebsites.net/) utilizando las tecnologías que en este challengue introducimos.
+Actualmente ya hemos iniciado el desarrollo de varios frontales utilizando las tecnologías que en este challengue introducimos y el siguiente es el que [aquí](https://erp-spa-dev-app.azurewebsites.net/) nos reúne.
 
 ## Posición: Desarrollador de Software Frontend
 
