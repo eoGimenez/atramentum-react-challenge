@@ -58,9 +58,9 @@ Crear una aplicación básica en React que muestre, como mínimo, dos pantallas:
 > **Note**
 > La entidad a completar se le dirá al candidato con anterioridad al desarrollo del challenge. Podrá ser referente a cliente, a productos o a cualquier otra entidad.
 
-1. **Listado de clientes:** Muestra el listado de clientes de la forma que consideres más conveniente, teniendo en cuenta que no conoces la lógica de negocio y lo que podría ser más importante para cada uno de los ámbitos de la empresa.
+1. **Listado de clientes|productos|usuarios|{entidad que se asigne por correo al obtener el usuario y contraseña}:** Muestra el listado de clientes de la forma que consideres más conveniente, teniendo en cuenta que no conoces la lógica de negocio y lo que podría ser más importante para cada uno de los ámbitos de la empresa.
 
-2. **Edición de cliente:** Al hacer clic en un cliente del listado, accede a una página de edición del cliente. Un cliente tiene muchas relaciones (direcciones de facturación, de envío, cuentas bancarias, etc.) y aunque **no** es necesario cubrirlas todas, sí será necesario mínimo mostrar dos o tres para mostrar cómo gestionar diversas llamada (diversas pestañas, vía scroll con carga progresiva o de la forma que te sientas más cómodo). Recuerda que estos cambios deberán poder guardarse con la respectiva llamada a la API.
+2. **Edición de cliente|producto|usuario|{entidad que se asigne por correo al obtener el usuario y contraseña}:** Al hacer clic en un cliente del listado, accede a una página de edición del cliente. Un cliente tiene muchas relaciones (direcciones de facturación, de envío, cuentas bancarias, etc.) y aunque **no** es necesario cubrirlas todas, sí será necesario mínimo mostrar dos o tres para mostrar cómo gestionar diversas llamada (diversas pestañas, vía scroll con carga progresiva o de la forma que te sientas más cómodo). Recuerda que estos cambios deberán poder guardarse con la respectiva llamada a la API.
 
 Una vez que hayas completado la prueba técnica, incluye el enlace al repositorio Git en tu aplicación.
 
@@ -70,7 +70,7 @@ Nuestra intención no es hacerte perder el tiempo, sino comprobar tu encaje en l
 
 Los medios que utilices para realizar esta prueba son indiferentes: puedes bucar casos similares en la red, ayudarte de algún copiloto de IA, etc. Lo que queremos es que entiendas lo que haces y por qué lo haces. Y en la entrevista que concertemos tras la entrega de la prueba técnica, será sobre lo que hablaremos: tranquilo, no se trata de un examen y pasaremos un buen rato hablando de tecnología.
 
-Envíanos tu CV, enlace a tu perfil de GitHub y enlace al repositorio de la prueba técnica a [vacantes@akralogic.es](mailto:vacantes@akralogic.es) o contáctanos a través de nuestra página en [Linkedin](https://www.linkedin.com/company/atramentum-sl/).
+Envíanos tu CV, enlace a tu perfil de GitHub y enlace al repositorio de la prueba técnica a [vacantes@akralogic.es](mailto:rrhh@akralogic.es) o contáctanos a través de nuestra página en [Linkedin](https://www.linkedin.com/company/atramentum-sl/).
 
 No es necesario que la web esté disponible online, pero de no ser así, deberás incluir las instrucciones para levantarla en local. 🚀
 
