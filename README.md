@@ -21,7 +21,7 @@ Actualmente ya hemos iniciado el desarrollo de varios frontales utilizando las t
 ### Requisitos: :white_check_mark:
 
 1.  Título en informática o campo relacionado, o experiencia laboral equivalente.
-2.  Experiencia mínima de 2 años en desarrollo frontend con React. Se valorará menos experiencia si puede aportar un portfolio de trabajos implementados suficiente.Muy valorable Valorable con Playwright y TailwindCSS.
+2.  Experiencia mínima de 2 años en desarrollo frontend con React. Se valorará menos experiencia si puede aportar un portfolio de trabajos implementados suficiente.
 3.  Profundo conocimiento de JavaScript, HTML5 y CSS3.
 4.  Experiencia con frameworks y bibliotecas adicionales, como Redux, Context API, Next.js y Webpack.
 5.  Conocimiento de API RESTful para la integración con servicios backend.
