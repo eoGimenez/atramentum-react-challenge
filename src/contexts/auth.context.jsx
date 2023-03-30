@@ -16,6 +16,10 @@ function AuthProviderWrapper({children}) {
         return localStorage.getItem('token');
     }
 
+    const deleteToken = () => {
+        localStorage.removeItem('token')
+    }
+
     const isAuthenticated = () => {
         setIsLoading(true);
 
@@ -37,7 +41,7 @@ function AuthProviderWrapper({children}) {
     }, []);
 
     return (
-        <authContext.Provider value={{isLoggedIn, isLoading, storeToken, getToken, isAuthenticated, setIsLoading }}>
+        <authContext.Provider value={{isLoggedIn, isLoading, storeToken, getToken, isAuthenticated, setIsLoading, deleteToken }}>
             {children}
         </authContext.Provider>
     )

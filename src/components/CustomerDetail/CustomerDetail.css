@@ -1,0 +1,6 @@
+.card-body div {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+    margin-top: 1em;
+}

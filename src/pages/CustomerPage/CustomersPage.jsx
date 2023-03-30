@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
-import CustomersList from '../components/CustomersList';
-import { authContext } from '../contexts/auth.context';
-import CustomersService from '../services/customers.service';
+import CustomersList from '../../components/CustomerList/CustomersList';
+import { authContext } from '../../contexts/auth.context';
+import CustomersService from '../../services/customers.service';
 
 export default function CustomersPage() {
 	const [customers, setCustomers] = useState([]);
@@ -19,7 +19,7 @@ export default function CustomersPage() {
 				}, 750);
 			});
 	}, []);
-	console.log(customers);
+
 	return (
 		<>
 			<div>

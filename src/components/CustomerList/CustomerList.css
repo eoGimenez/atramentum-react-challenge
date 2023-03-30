@@ -1,0 +1,25 @@
+#table__ {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.table__ {
+	width: 35em;
+	margin-inline: 2em;
+}
+
+thead {
+	background-color: #ff6c7f;
+	border: 1px solid black;
+}
+
+tbody {
+	background-color: #f7d6dc;
+	border: 1px solid black;
+}
+
+.tr__hover:hover {
+	transition: 0.7s;
+	background-color: #6c63ff;
+}

@@ -11,6 +11,7 @@ class CustomersService {
     getCustomerById (customerId) {
         return fetch(`${this.API_URL}/customers/invoiceData/contacts/${customerId}`, this.headers)
     }
+ //   putEditCustomer (customerId, customerData)
 }
 
 export default CustomersService;

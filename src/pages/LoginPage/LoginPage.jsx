@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { authContext } from '../contexts/auth.context';
+import { authContext } from '../../contexts/auth.context';
 
 export default function LoginPage() {
 	const [username, setUsername] = useState('');
@@ -26,13 +26,12 @@ export default function LoginPage() {
 					setError(response.error);
 					return;
 				}
-				console.log(response.token);
 				storeToken(response.token);
 				isAuthenticated();
 				navigate('/customers');
 			})
 			.catch((err) => {
-				console.log(err);
+				console.log("Error del server: ", err);
 				setError('Ha habido un error, intentelo nuevamente!');
 			});
 	};
