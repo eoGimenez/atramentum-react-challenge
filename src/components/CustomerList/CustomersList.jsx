@@ -1,14 +1,16 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import CustomerDetail from '../CustomerDetail/CustomerDetail';
 import './CustomerList.css';
 
 export default function ({ customers }) {
 	const [showDetail, setShowDetail] = useState(false);
 	const [customer, setCustomer] = useState({});
-
+	const navigate = useNavigate()
 	const handleClick = (customer) => {
-		setShowDetail(!showDetail);
+		//setShowDetail(!showDetail);
 		setCustomer(customer);
+		navigate(`/customers/${customer.id}`)
 	};
 
 	return (

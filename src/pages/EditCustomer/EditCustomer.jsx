@@ -1,149 +1,56 @@
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { authContext } from '../../contexts/auth.context';
 import CustomersService from '../../services/customers.service';
-import './EditCustomer.css'
+import CustomerDetail from '../../components/CustomerDetail/CustomerDetail';
+import './EditCustomer.css';
+import WebsDetail from '../../components/CustomerDetail/WebsDetails';
+import CustomersTypes from '../../components/CustomerDetail/CustomersTypes';
+import EditCustomer from '../../components/EditComponents/EditCustomer';
 
-export default function EditCustomer() {
-	const [customer, setCustomer] = useState({});
-	const [form, setForm] = useState({
-		id: '',
-		name: '',
-		phone: '',
-		email: '',
-		contactRoleId: '',
-		morningEndHour: '',
-		morningInitHour: '',
-		afternoonInitHour: '',
-		afternoonEndHour: '',
+export default function EditCustomerr() {
+	const [customer, setCustomer] = useState({
+		details: {},
+		webs: [],
+        types: []
 	});
+    const [showEdit, setShowEdit] = useState(false)
 	const { customerId } = useParams();
 	const { getToken } = useContext(authContext);
 	const customersService = new CustomersService(getToken());
 
+    const handleEdit = (showEdit) => {
+        setShowEdit(showEdit)
+    } 
+
 	useEffect(() => {
-		customersService
-			.getCustomerById(customerId)
-			.then((res) => res.json())
-			.then((response) => {
-				setCustomer(response);
-			});
+		const fetchData = async () => {
+			try {
+				const [customerData, customerWebsData, customersTypesData] = await Promise.all([
+					customersService.getCustomer(customerId).then((response) => response.json()),
+					customersService.getCustomerWebs(customerId).then((response) => response.json()),
+					customersService.getCustomerType(customerId).then((response) => response.json()),
+				]);
+				setCustomer({
+					details: customerData,
+					webs: customerWebsData.content,
+                    types: customersTypesData.content
+				});
+			} catch (error) {
+				console.log(error);
+			}
+		};
+		fetchData();
 	}, []);
-	useEffect(() => {
-		setForm({
-			id: customer.id,
-			name: customer.name,
-			phone: customer.phone,
-			email: customer.email,
-			contactRoleId: customer.contactRoleId,
-			morningEndHour: customer.morningEndHour,
-			morningInitHour: customer.morningInitHour,
-			afternoonInitHour: customer.afternoonInitHour,
-			afternoonEndHour: customer.afternoonEndHour,
-		});
-	}, [customer]);
-
-	const handleSubmit = (e) => {
-		e.preventDefault();
-		
-	}
-
+    
 	return (
 		<>
-			<form onSubmit={handleSubmit}>
-				<div className='form-floating mb-3'>
-					<input
-						type='text'
-						className='form-control'
-						id='floatingInput'
-						placeholder='name@example.com'
-						value={form.name}
-						onChange={(e) => setForm({ ...form, name: e.target.value})}
-					/>
-					<label htmlFor='floatingInput'>Name</label>
-				</div>
-				<div className='form-floating mb-3'>
-					<input
-						type='text'
-						className='form-control'
-						id='floatingInput'
-						placeholder='name@example.com'
-						value={form.phone}
-						onChange={(e) => setForm({ ...form, phone: e.target.value})}
-					/>
-					<label htmlFor='floatingInput'>Phone contact</label>
-				</div>
-				<div className='form-floating mb-3'>
-					<input
-						type='email'
-						className='form-control'
-						id='floatingInput'
-						placeholder='name@example.com'
-						value={form.email}
-						onChange={(e) => setForm({ ...form, email: e.target.value})}
-					/>
-					<label htmlFor='floatingInput'>Email address</label>
-				</div>
-				<div className='form-floating mb-3'>
-					<input
-						type='text'
-						className='form-control'
-						id='floatingInput'
-						placeholder='name@example.com'
-						value={form.morningInitHour}
-						onChange={(e) => setForm({ ...form, morningInitHour: e.target.value})}
-					/>
-					<label htmlFor='floatingInput'>Morning Init Hour</label>
-				</div>
-				<div className='form-floating mb-3'>
-					<input
-						type='text'
-						className='form-control'
-						id='floatingInput'
-						placeholder='name@example.com'
-						value={form.morningEndHour}
-						onChange={(e) => setForm({ ...form, morningEndHour: e.target.value})}
-					/>
-					<label htmlFor='floatingInput'>Morning End Hour</label>
-				</div>
-				<div className='form-floating mb-3'>
-					<input
-						type='text'
-						className='form-control'
-						id='floatingInput'
-						placeholder='name@example.com'
-						value={form.afternoonInitHour}
-						onChange={(e) => setForm({ ...form, afternoonInitHour: e.target.value})}
-					/>
-					<label htmlFor='floatingInput'>Afternoon Init Hour</label>
-				</div>
-				<div className='form-floating mb-3'>
-					<input
-						type='text'
-						className='form-control'
-						id='floatingInput'
-						placeholder='name@example.com'
-						value={form.afternoonEndHour}
-						onChange={(e) => setForm({ ...form, afternoonEndHour: e.target.value})}
-					/>
-					<label htmlFor='floatingInput'>Afternoon End Hour</label>
-				</div>
-				<div className='form-floating mb-3'>
-					<input
-						type='text'
-						className='form-control'
-						id='floatingInput'
-						placeholder='name@example.com'
-						value={form.contactRoleId}
-						onChange={(e) => setForm({ ...form, contactRoleId: e.target.value})}
-					/>
-					<label htmlFor='floatingInput'>Contact Role</label>
-				</div>
-
-				<button type='submit' className='btn btn-primary'>
-					Submit
-				</button>
-			</form>
+			{!showEdit && (<div className='edit__customer'>
+				<CustomerDetail customer={customer.details} showEdit={showEdit} handleEdit={handleEdit} />
+				<WebsDetail webs={customer.webs} />
+                <CustomersTypes types={customer.types} />
+			</div>)}
+            {showEdit && <EditCustomer customer={customer.details} />}
 		</>
 	);
 }

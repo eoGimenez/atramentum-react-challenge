@@ -19,7 +19,7 @@ export default function CustomersPage() {
 				}, 750);
 			});
 	}, []);
-
+	
 	return (
 		<>
 			<div>
