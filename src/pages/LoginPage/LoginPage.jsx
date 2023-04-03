@@ -31,7 +31,7 @@ export default function LoginPage() {
 				navigate('/customers');
 			})
 			.catch((err) => {
-				console.log("Error del server: ", err);
+				console.log('Error del server: ', err);
 				setError('Ha habido un error, intentelo nuevamente!');
 			});
 	};
@@ -63,7 +63,7 @@ export default function LoginPage() {
 						Password
 					</label>
 					<input
-						type='text'
+						type='password'
 						className='form-control'
 						id='exampleInputPassword1'
 						value={password}

@@ -6,7 +6,7 @@ import CustomersService from '../../services/customers.service';
 export default function CustomersPage() {
 	const [customers, setCustomers] = useState([]);
 	const { getToken } = useContext(authContext);
-    const [isLoading, setIsLoading] = useState(false)
+	const [isLoading, setIsLoading] = useState(false);
 	const customersService = new CustomersService(getToken());
 	useEffect(() => {
 		customersService
@@ -19,7 +19,6 @@ export default function CustomersPage() {
 				}, 750);
 			});
 	}, []);
-	
 	return (
 		<>
 			<div>

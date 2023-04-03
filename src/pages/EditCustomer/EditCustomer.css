@@ -1,20 +1,31 @@
 .edit__customer {
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-} 
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+}
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 form div {
-    width: 15em;
+	width: 15em;
 }
 
 @media (min-width: 55rem) {
-    form div {
-        width: 30em;
-    }
+	form div {
+		width: 30em;
+	}
+	.edit__customer {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media (min-width: 60rem) {
+	form div {
+		width: 30em;
+	}
+	.edit__customer {
+		grid-template-columns: repeat(4, 1fr);
+	}
 }

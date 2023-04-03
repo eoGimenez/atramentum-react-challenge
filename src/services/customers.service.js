@@ -16,9 +16,6 @@ class CustomersService {
 	getCustomerType(customerId) {
 		return fetch(`${this.API_URL}/customers/${customerId}/types`, this.headers);
 	}
-	editCustomer(customerId, customerEditer) {
-		return fetch(`${this.API_URL}/customers/${customerId}`, { method: 'PUT', body: {phone1: customerEditer.phone1, observati}, headers: this.headers.headers});
-	}
 }
 
 export default CustomersService;

@@ -8,16 +8,39 @@ import IsPrivate from './components/isPrivate';
 import EditCustomerr from './pages/EditCustomer/EditCustomer';
 
 function App() {
-	return (<>
-		<div className='App'>
-      <Navbar />
-			<Routes>
-				<Route path='/'  element={<IsAnon><LoginPage /></IsAnon>}/>
-				<Route path='/customers' element={<IsPrivate> <CustomersPage /></IsPrivate>} />
-				<Route path='/customers/:customerId' element={<IsPrivate><EditCustomerr /></IsPrivate>} />
-			</Routes>
-		</div>
-    </>
+	return (
+		<>
+			<div className='App'>
+				<Navbar />
+				<Routes>
+					<Route
+						path='/'
+						element={
+							<IsAnon>
+								<LoginPage />
+							</IsAnon>
+						}
+					/>
+					<Route
+						path='/customers'
+						element={
+							<IsPrivate>
+								{' '}
+								<CustomersPage />
+							</IsPrivate>
+						}
+					/>
+					<Route
+						path='/customers/:customerId'
+						element={
+							<IsPrivate>
+								<EditCustomerr />
+							</IsPrivate>
+						}
+					/>
+				</Routes>
+			</div>
+		</>
 	);
 }
 

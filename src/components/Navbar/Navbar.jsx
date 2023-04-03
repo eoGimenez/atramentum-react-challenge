@@ -4,20 +4,20 @@ import { authContext } from '../../contexts/auth.context';
 import './Navbar.css';
 
 export default function Navbar() {
-	const {deleteToken, isAuthenticated } = useContext(authContext);
+	const { deleteToken, isAuthenticated } = useContext(authContext);
 	const navigate = useNavigate();
 
 	const handleLogout = () => {
 		deleteToken();
 		isAuthenticated();
-		navigate("/");
-	}
+		navigate('/');
+	};
 	return (
 		<nav className='navbar navbar-expand-lg'>
 			<div className='container-fluid'>
-				<p className='brand' >
-					Atramentum
-				</p>
+				<Link to='https://www.linkedin.com/company/atramentum-sl/about/'>
+					<p className='brand'>Atramentum</p>
+				</Link>
 				<button
 					className='navbar-toggler'
 					type='button'
@@ -36,37 +36,6 @@ export default function Navbar() {
 								Home
 							</Link>
 						</li>
-						{/* <li className='nav-item dropdown'>
-							<a
-								className='nav-link dropdown-toggle'
-								href='#'
-								role='button'
-								data-bs-toggle='dropdown'
-								aria-expanded='false'
-							>
-								Dropdown
-							</a>
-							<ul className='dropdown-menu'>
-								<li>
-									<a className='dropdown-item' href='#'>
-										Action
-									</a>
-								</li>
-								<li>
-									<a className='dropdown-item' href='#'>
-										Another action
-									</a>
-								</li>
-								<li>
-									<hr className='dropdown-divider' />
-								</li>
-								<li>
-									<a className='dropdown-item' href='#'>
-										Something else here
-									</a>
-								</li>
-							</ul>
-						</li> */}
 					</ul>
 					<ul className='navbar-nav '>
 						<li className='nav-item'>
